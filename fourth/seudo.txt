@@ -1,0 +1,13 @@
+definir funcion fibonacci (n):
+
+        declara a,b,c = 0,1,0
+
+        bucle en rango de (0 a n):
+
+                c = a +b
+                a = b
+
+                b = c
+        imprimir(a)
+
+fibonacci(5)
